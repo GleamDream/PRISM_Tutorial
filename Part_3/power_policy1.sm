@@ -98,3 +98,7 @@ endmodule
 rewards "queue_size"
 	true : q;
 endrewards
+
+rewards "lost"
+	[request] q=q_max: 1;
+endrewards

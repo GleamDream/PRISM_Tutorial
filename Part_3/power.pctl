@@ -1,0 +1,12 @@
+const int T;
+
+P=? [F[T,T] q = q_max]
+
+S=?[q/q_max = 1]
+
+R {"queue_size"} =? [I = T]
+
+R {"queue_size"} =? [S]
+
+R{"lost"}=? [C<=T]
+
